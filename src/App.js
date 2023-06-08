@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles.css";
+import pic1 from "./img/tension.jpg";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <img alt="" src={pic1}></img>
+      <h1>Tansiyon Hesaplama</h1>
+      <form>
+        <div className="inputs">
+          <input
+            className="input"
+            required
+            type="text"
+            placeholder="büyük tansiyonunuzu giriniz"
+          ></input>
+          <input
+            className="input"
+            required
+            type="text"
+            placeholder="küçük tansiyonunuzu giriniz"
+          ></input>
+        </div>
+        <div className="buttons">
+          <button className="button" type="submit">
+            Hesapla
+          </button>
+        </div>
+      </form>
     </div>
   );
-}
+};
 
 export default App;
