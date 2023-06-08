@@ -4,13 +4,17 @@
     align-items: center;
     justify-content: first baseline;
     height: 100vh;
-    background-color: white;
 }
 
 img {
   width: 550px;
   height: 400px;
   object-fit: cover;
+}
+
+h1{
+  color: rgb(73,37,62);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 input{
