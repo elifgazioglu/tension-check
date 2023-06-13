@@ -4,6 +4,7 @@ import pic1 from "./img/tension.jpg";
 import pic2 from "./img/tension2.jpg";
 import pic3 from "./img/tension4.jpg";
 import pic4 from "./img/tension3.jpg";
+import pic5 from "./img/tension5.jpg";
 import { useState } from "react";
 
 const App = () => {
@@ -58,7 +59,7 @@ const App = () => {
           {message === "normal" && (
             <div className="result">
               <img src={pic2} alt="" className="pic"></img>
-              <h2>Tansiyonunuz Normal🥳</h2>
+              <h2>Tansiyonunuz normal🥳</h2>
               <p className="warning">
                 Tansiyon değerleriniz 120/80 olarak ölçüldü. Bu değerler, genel
                 olarak kabul edilen normal tansiyon aralığındadır ve sağlıklı
@@ -100,14 +101,24 @@ const App = () => {
           )}
           {message === "yüksek normal" && (
             <div className="result">
-              <h2>Yüksek Normal Tansiyon</h2>
+              <img src={pic5} alt="" className="pic"></img>
+              <h2>Tansiyonunuz biraz yüksek 😳</h2>
               <p>
-                Tansiyon değerleriniz 130/85 olarak ölçüldü. Bu değerler yüksek
-                normal tansiyon olarak kabul edilir. Yüksek normal tansiyon,
-                normalden yüksek, ancak hipertansiyon (yüksek tansiyon) olarak
+                Tansiyon değerleriniz olarak ölçüldü. Bu değerler yüksek normal
+                tansiyon olarak kabul edilir. Yüksek normal tansiyon, normalden
+                yüksek, ancak hipertansiyon (yüksek tansiyon) olarak
                 sınıflandırılmayan bir aralıktır. Sağlıklı bir yaşam tarzı ve
                 düzenli takip ile tansiyonunuzu kontrol altında tutabilirsiniz.
-                Ancak, doktorunuzun önerilerini dikkate almanız önemlidir.
+                Eğer yapabilirsen:
+                <ul>
+                  <li>Sağlıklı bir kiloda kalmaya çalışın</li>
+                  <li>Düzenli egzersiz</li>
+                  <li>Sigarayı bırakın</li>
+                  <li>Daha az alkol ve kafein tüketin</li>
+                  <li>Bol bol taze meyve ve sebze yiyin</li>
+                </ul>
+                Kan basıncınızı düzenli olarak kontrol edin ve bir fark görmeye
+                başlamalısınız.
               </p>
             </div>
           )}
@@ -146,6 +157,11 @@ const App = () => {
                   </li>
                 </ul>
               </p>
+            </div>
+          )}
+          {message === "default" && (
+            <div className="error">
+              <p>Lütfen değerlerinizin doğruluğunu kontrol edin...</p>
             </div>
           )}
         </div>
