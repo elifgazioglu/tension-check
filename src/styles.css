@@ -52,16 +52,18 @@ form {
 
 .result {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .results {
-  width:min-content;
-  border: 3px solid black;
-  border-radius: 10px;
+  width: min-content;
+  border: none;
   position: absolute;
   margin-top: 80px;
   top: 50%;
@@ -69,24 +71,77 @@ form {
   transform: translate(-50%, -50%);
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-p{
+p {
   text-align: center;
   margin: 30px;
 }
 
-.pic{
+.pic {
   height: 400px;
   width: 400px;
   object-fit: cover;
   margin: 30px;
 }
 
-.error{
+.error {
   color: red;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 30px;
+}
+
+
+@media (min-width: 375px) and (max-width: 667px) {
+  img {
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h1 {
+    margin: 30px;
+  }
+
+  input {
+    margin: 5px;
+    margin-left: 15px;
+  }
+
+  .button {
+    margin: 30px;
+  }
+
+  .pic {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .results {
+    width: min-content;
+    border: none;
+    position: absolute;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 120vh;
+  }
+
+  .result {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+
 }

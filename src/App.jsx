@@ -5,6 +5,7 @@ import pic2 from "./img/tension2.jpg";
 import pic3 from "./img/tension4.jpg";
 import pic4 from "./img/tension3.jpg";
 import pic5 from "./img/tension5.jpg";
+import error from "./img/error.jpg";
 import { useState } from "react";
 
 const App = () => {
@@ -96,6 +97,19 @@ const App = () => {
                   <li>Baş dönmesi veya baş dönmesi hissi</li>
                   <li>Bayılma</li>
                 </ul>
+                Düşük tansiyonu iyileştirmek için bazı önlemler de
+                alabilirsiniz. İşte bu önlemlerden birkaçı:
+                <ul>
+                <li>Sıvı alımını artırın</li>
+                <li>
+                  Kahve veya çay tüketin. Kafein, geçici olarak kan basıncını
+                  yükseltebilir
+                </li>
+                <li>
+                  Tuz tüketimini artırın: Tuz, vücutta sıvı tutulumunu artırır
+                  ve kan basıncını yükseltebilir.
+                </li>
+                </ul>
               </p>
             </div>
           )}
@@ -118,7 +132,16 @@ const App = () => {
                   <li>Bol bol taze meyve ve sebze yiyin</li>
                 </ul>
                 Kan basıncınızı düzenli olarak kontrol edin ve bir fark görmeye
-                başlamalısınız.
+                başlamalısınız. Bununla birlikte tansiyona iyi gelen yiyecek ve
+                içeceklerden faydalanarak da doğal ve bitkisel yollardan
+                tansiyon değerlerini dengelemek mümkündür.
+                <ul>
+                  <li>Muz: İçeriğinde barındırdığı yüksek oranda potasyum sayesinde kan basıncını düzene sokar.</li>
+                  <li>Pancar: İçeriğinde yer alan nitrat sayesinde tansiyonu dengeler.</li>
+                  <li>Nar: Polifenol, C vitamini ve antioksidan açısından zengindir. Bu sayede kan basıncını dengeler.</li>
+                  <li>Sarımsak: Sarımsak, doğal tansiyon düşürücü olarak tanımlanan bir doğal kaynaktır.</li>
+                  <li>Limon: Limon da yüksek tansiyon problemine karşı sarımsak kadar etkili bir doğal kaynaktır.</li>
+                </ul>
               </p>
             </div>
           )}
@@ -161,6 +184,7 @@ const App = () => {
           )}
           {message === "default" && (
             <div className="error">
+              <img src={error} alt="" className="pic"></img>
               <p>Lütfen değerlerinizin doğruluğunu kontrol edin...</p>
             </div>
           )}
