@@ -98,7 +98,6 @@ p {
   img {
     width: 370px;
     height: 300px;
-    object-fit: cover;
   }
 
   h1 {
@@ -117,31 +116,114 @@ p {
   .pic {
     height: 250px;
     width: 250px;
-    object-fit: cover;
   }
 
   p {
-    text-align: center;
     margin: 10px;
     padding: 10px;
   }
 
   .results {
-    width: min-content;
-    border: none;
-    position: absolute;
     margin-top: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     height: 120vh;
   }
 
   .result {
-    border: 3px solid black;
-    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 896px) {
+  img {
+    margin-top: 30px;
+  }
+
+  h1 {
+    margin: 50px;
+  }
+
+  input {
+    margin: 8px;
+    margin-left: 35px;
+  }
+
+  .button {
+    margin: 40px;
+  }
+
+  p {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .results {
+    margin-top: -5px;
+    height: 100vh;
+  }
+
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  img {
     margin-top: 20px;
   }
 
+  h1 {
+    margin: 30px;
+  }
 
+  input {
+    margin: 8px;
+    margin-left: 30px;
+  }
+
+  .button {
+    margin: 40px;
+  }
+
+  p {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .results {
+    margin-top: 0px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+  img {
+    width: 350px;
+    height: 270px;
+  }
+
+  h1 {
+    margin: 20px;
+  }
+
+  input {
+    margin: 8px;
+    margin-left: 15px;
+  }
+
+  .button {
+    margin: 40px;
+  }
+
+  p {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .pic {
+    height: 270px;
+    width: 270px;
+  }
+
+  .results {
+    margin-top: 0px;
+    height: 100vh;
+    width: 45vh;
+  }
 }

@@ -70,9 +70,21 @@ const App = () => {
                 sorunlarına da yardımcı olabilir. Eğer yapabilirseniz;
                 <ul>
                   <li>Sağlıklı bir kiloda kalmaya çalışın.</li>
-                  <li>Düzenli egzersiz yapın.</li>
-                  <li>Bol bol taze meyve ve sebze yiyin.</li>
-                  <li>Tuzu azaltın.</li>
+                  <li>
+                    Fiziksel olarak aktif olun: Düzenli olarak egzersiz yapmak,
+                    tansiyonu kontrol altında tutmaya yardımcı olabilir. Fiziksel aktiviteyi günlük rutininizin bir
+                    parçası haline getirmek önemlidir.
+                  </li>
+                  <li>
+                    Sağlıklı beslenme alışkanlıkları geliştirin: Düzenli olarak
+                    dengeli bir beslenme planı uygulayın. Yeterli miktarda
+                    meyve, sebze, tam tahıllar, düşük yağlı protein kaynakları
+                    ve sağlıklı yağlar tüketmeye özen gösterin.
+                  </li>
+                  <li>
+                    Tuz alımınızı sınırlayın ve işlenmiş gıdaların tuz içeriğini
+                    kontrol edin.
+                  </li>
                   <li>Daha az alkol ve kafein içmeye çalışın.</li>
                   <li>Sigarayı bırakın.</li>
                 </ul>
@@ -100,15 +112,15 @@ const App = () => {
                 Düşük tansiyonu iyileştirmek için bazı önlemler de
                 alabilirsiniz. İşte bu önlemlerden birkaçı:
                 <ul>
-                <li>Sıvı alımını artırın</li>
-                <li>
-                  Kahve veya çay tüketin. Kafein, geçici olarak kan basıncını
-                  yükseltebilir
-                </li>
-                <li>
-                  Tuz tüketimini artırın: Tuz, vücutta sıvı tutulumunu artırır
-                  ve kan basıncını yükseltebilir.
-                </li>
+                  <li>Sıvı alımını artırın</li>
+                  <li>
+                    Kahve veya çay tüketin. Kafein, geçici olarak kan basıncını
+                    yükseltebilir
+                  </li>
+                  <li>
+                    Tuz tüketimini artırın: Tuz, vücutta sıvı tutulumunu artırır
+                    ve kan basıncını yükseltebilir.
+                  </li>
                 </ul>
               </p>
             </div>
@@ -136,11 +148,26 @@ const App = () => {
                 içeceklerden faydalanarak da doğal ve bitkisel yollardan
                 tansiyon değerlerini dengelemek mümkündür.
                 <ul>
-                  <li>Muz: İçeriğinde barındırdığı yüksek oranda potasyum sayesinde kan basıncını düzene sokar.</li>
-                  <li>Pancar: İçeriğinde yer alan nitrat sayesinde tansiyonu dengeler.</li>
-                  <li>Nar: Polifenol, C vitamini ve antioksidan açısından zengindir. Bu sayede kan basıncını dengeler.</li>
-                  <li>Sarımsak: Sarımsak, doğal tansiyon düşürücü olarak tanımlanan bir doğal kaynaktır.</li>
-                  <li>Limon: Limon da yüksek tansiyon problemine karşı sarımsak kadar etkili bir doğal kaynaktır.</li>
+                  <li>
+                    Muz: İçeriğinde barındırdığı yüksek oranda potasyum
+                    sayesinde kan basıncını düzene sokar.
+                  </li>
+                  <li>
+                    Pancar: İçeriğinde yer alan nitrat sayesinde tansiyonu
+                    dengeler.
+                  </li>
+                  <li>
+                    Nar: Polifenol, C vitamini ve antioksidan açısından
+                    zengindir. Bu sayede kan basıncını dengeler.
+                  </li>
+                  <li>
+                    Sarımsak: Sarımsak, doğal tansiyon düşürücü olarak
+                    tanımlanan bir doğal kaynaktır.
+                  </li>
+                  <li>
+                    Limon: Limon da yüksek tansiyon problemine karşı sarımsak
+                    kadar etkili bir doğal kaynaktır.
+                  </li>
                 </ul>
               </p>
             </div>
